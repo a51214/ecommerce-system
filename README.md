@@ -1,24 +1,12 @@
-# README
+* Version of rails is 5.1.7.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* I have made separate apps for rails api and separate app for react frontend. React front end is making api calls to rails backend.
 
-Things you may want to cover:
+* I have used devise_token_auth gem for devise authentication.
 
-* Ruby version
+* Products are being added using rake task. 
 
-* System dependencies
+* I have created a default user using seeds.rb.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* At front end I have saved the token, uid, expiry and client in the state of component. I should have used redux-token-auth for this but didn't used it due to time constraint. 
+* Products can not be accessed if the user is not authenticated.
