@@ -1,0 +1,5 @@
+def render_product(product)
+    render product
+end
+
+products.try(:map) {|product| render_product(product) }

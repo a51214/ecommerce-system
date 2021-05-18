@@ -1,0 +1,7 @@
+json = {
+    name:    product.name,
+    price:   product.price,
+    quantity: product.quantity,
+    imgUrl:   product.img
+}
+json
